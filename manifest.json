@@ -1,0 +1,22 @@
+{
+  "name": "Fontcookie",
+  "description": "CHOMCO COOKY",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["fontcookie.css"],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": ["tabs"],
+  "host_permissions": [
+  ],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "128": "fontcookie.png"
+  }
+}
