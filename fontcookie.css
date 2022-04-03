@@ -1,8 +1,0 @@
-@font-face {
-  font-family: 'Choco cooky';
-  src: url('ChocoCookyRegular.ttf');
-}
-
-* {
-  font-family: 'Choco cooky' !important;
-}

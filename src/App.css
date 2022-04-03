@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'Choco cooky';
+  src: url('../public/ChocoCookyRegular.ttf');
+}
+
+* {
+  font-family: 'Choco cooky' !important;
+}
+
+.App {
+  width: 300px;
+  font-family: 'Choco cooky', sans-serif;
+  background-color: #fff;
+  color: #623C19;
+  padding: 5px;
+}
+
+h1 {
+  color: #623C19;
+  font-size: 36px;
+  letter-spacing: 4px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+p, label, input {
+  font-size: 14px;
+}
+
+input {
+  font-family: 'Choco cooky', sans-serif;
+  display: block;
+  width: 100%;
+  outline: none;
+  appearance: none;
+  border-radius: 0;
+  border: 1px solid #623C19;
+  color: #623C19;
+  background: transparent;
+  height: 30px;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.fontcookie__border {
+  border: 1px solid #623C19;
+  padding: 10px;
+  min-height: 420px;
+}
+
+.fontcookie__form-input {
+  display: flex;
+  flex-direction: row;
+}
+
+.fontcookie__form-input input {
+  align-self: stretch;
+  margin-right: 5px;
+}
+
+.fontcookie__form-input button {
+}
+
+.fontcookie__customized-site-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.fontcookie__customized-site-list-item {
+  color: #623C19;
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+.fontcookie__customized-site-list-item > span {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.fontcookie__customized-site-list-item button {
+  /* TODO */
+}
+
+.fontcookie__customized-site-icon {
+  display: inline-block;
+  margin-right: 8px;
+  width: 24px;
+}
+
+.fontcookie__icon-button {
+  background: transparent;
+  appearance: none;
+  outline: none;
+  border: 1px solid #623C19;
+  height: 30px;
+  width: 30px;
+  padding-top: 4px;
+  cursor: pointer;
+  color: #623C19;
+}
+
+.fontcookie__icon-button-active {
+  background-color: #623C19;
+  color: #fff;
+}
+
+.fontcookie__icon-button-disabled {
+  cursor: default;
+  color: #58514B;
+  opacity: 0.4;
+}
+
+.fontcookie__customized-site-icon-letter {
+  background-color: #fff;
+  color: #623C19;
+  font-size: 18px;
+  height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+}

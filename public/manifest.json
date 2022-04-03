@@ -6,11 +6,11 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "css": ["fontcookie.css"],
+      "js": ["fontcookie.js"],
       "run_at": "document_start"
     }
   ],
-  "permissions": ["tabs"],
+  "permissions": ["tabs", "storage"],
   "host_permissions": [
   ],
   "action": {
